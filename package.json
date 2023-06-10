@@ -1,0 +1,35 @@
+{
+  "name": "convinze",
+  "version": "1.0.0",
+  "description": "recommendation system for hack asia hacktahon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Folawewo/convinze.git"
+  },
+  "keywords": [
+    "recommendation",
+    "system",
+    "hackathon"
+  ],
+  "author": "Folawewo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Folawewo/convinze/issues"
+  },
+  "homepage": "https://github.com/Folawewo/convinze#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3",
+    "ts-node": "^10.9.1"
+  }
+}
