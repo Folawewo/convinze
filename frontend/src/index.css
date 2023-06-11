@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.home,
+body {
+  background-color: hwb(203 68% 0%);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.homepage-container {
+  max-width: 600px;
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+.content {
+  background-color: white;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.p1 {
+  font-size: 18px;
+}
+
+.btn1 {
+  background-color: #ff5f6d; /* Blue background */
+  border: none; /* Remove borders */
+  padding: 12px 38px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  font-weight: 700;
+  border-radius: 20px;
+  color: white;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-heading {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+.form-button {
+  background-color: #ff5f6d;
+  color: white;
+  padding: 12px 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
