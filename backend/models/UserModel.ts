@@ -6,8 +6,12 @@ interface IUser extends Document {
   interests: string[];
 }
 
-const userSchema = new Schema<IUser>({
+const UserSchema = new Schema<IUser>({
   name: { type: String, required: true },
   email: { type: String, required: true },
   interests: { type: [String], defaults: [] },
 });
+
+const UserModel = mongoose.model<IUser>("User", UserSchema);
+
+module.exports = UserModel;
